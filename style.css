@@ -1,16 +1,11 @@
-
 body{
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
   background-attachment: fixed;
   padding: 2%;
+  background-image: url(https://marketplace.canva.com/EAELLJGrzWQ/1/0/1600w/canva-degrad%C3%AA-rosa-e-roxo-arco-%C3%ADris-fundo-virtual-para-zoom-iel7Rj8nbDg.jpg);
 }
-
-  /*fundo tela*/
-  body{
-    background-image: url(https://marketplace.canva.com/EAELLJGrzWQ/1/0/1600w/canva-degrad%C3%AA-rosa-e-roxo-arco-%C3%ADris-fundo-virtual-para-zoom-iel7Rj8nbDg.jpg);
-  }
   
   img{
       border-radius: 50%;
@@ -43,21 +38,35 @@ body{
   }
 
   .formacaov{
-    list-style: none;
     font-family: 'Secular One', sans-serif;
-  }
-
-
-  .formacao{
-    display: flex;
-    float:right;
-    width: 50%;
   }
 
   .experiencia{
     display: flex;
+    width: min-content;
     font-size: 100%;
-    gap: 1%;
+    gap: 5%;
   }
+
+  .fa-briefcase{
+    margin-top: 18%;
+  }
+
+  .bi-award-fill{
+    margin-top: 18%;
+  }
+
+  .habilidades{
+    display: flex;
+    width: min-content;
+    font-size: 100%;
+    gap: 5%;
+  }
+
+  .divGigantev2{
+    width: 50%;
+  }
+
+
 
 
