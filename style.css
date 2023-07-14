@@ -11,7 +11,7 @@ body{
       border-radius: 50%;
   }
 
-  .imagemPokemon{
+  .imagem{
     display: flex;
     justify-content: end;
   }
